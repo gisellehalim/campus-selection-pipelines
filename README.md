@@ -1,5 +1,6 @@
 # Submission 1: Campus Selection (Placement) Model
 Name: Giselle Halim
+
 Dicoding username: gisellehalim
 
 | | Description |
