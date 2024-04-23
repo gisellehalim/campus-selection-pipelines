@@ -2,7 +2,7 @@
 Name: Giselle Halim
 Dicoding username: gisellehalim
 
-| Description
+| | Description |
 | ----------- | ----------- |
 | Dataset | [Campus Placement Prediction: Binary Classification](https://www.kaggle.com/datasets/meruvulikith/campus-selection-classification-dataset) |
 | Problem | University admission selection has become an important activity for prospective students with various backgrounds and abilities. With so many candidates applying to a university, the university will be overwhelmed in selecting the best candidates. There are several common selection methods, such as essay writing and interviews. In addition, candidates' education history and work experience are also examined, which are often similar to each other. |
@@ -12,5 +12,5 @@ Dicoding username: gisellehalim
 | Evaluation metrics | The evaluation metrics used in this case are Binary Accuracy and Loss.
 | Model performance | The model performance is good when viewed from the binary accuracy and loss metrics. In val_loss, the model has a loss of 0.276. Meanwhile, the training loss is also small at 0.166. As for accuracy, the training accuracy reaches 92.6% while the validation accuracy remains stable during the training process at 86.7%. This indicates that the model does not have overfitting because there is not much difference between the training and validation scores.|
 | Deployment | The Railway platform is used for model deployment to the cloud, Railway can be accessed with PowerShell. |
-| Web app | [campus-selection-classification-model](https://campus-selection-classification-production.up.railway.app/v1/models/campus-selection-classification-model/metadata) (App Deactivated)
-| Monitoring | The monitoring of the model is done with the Prometheus platform via Docker. An example of monitoring used in the model is displaying incoming requests.|
+| Web app | [campus-selection-classification-model](https://campus-selection-classification-production.up.railway.app/v1/models/campus-selection-classification-model/metadata) (App Deactivated) 
+| Monitoring | The monitoring of the model is done with the Prometheus platform via Docker. An example of monitoring used in the model is displaying incoming requests. |
