@@ -1,0 +1,215 @@
+feature {
+  name: "degree_p"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "degree_t"
+  type: BYTES
+  domain: "degree_t"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "etest_p"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "gender"
+  type: BYTES
+  domain: "gender"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "hsc_b"
+  type: BYTES
+  domain: "hsc_b"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "hsc_p"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "hsc_s"
+  type: BYTES
+  domain: "hsc_s"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "mba_p"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "specialisation"
+  type: BYTES
+  domain: "specialisation"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "ssc_b"
+  type: BYTES
+  domain: "ssc_b"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "ssc_p"
+  type: FLOAT
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "status"
+  type: INT
+  bool_domain {
+  }
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+feature {
+  name: "workex"
+  type: BYTES
+  domain: "workex"
+  presence {
+    min_fraction: 1.0
+    min_count: 1
+  }
+  shape {
+    dim {
+      size: 1
+    }
+  }
+}
+string_domain {
+  name: "degree_t"
+  value: "Comm&Mgmt"
+  value: "Others"
+  value: "Sci&Tech"
+}
+string_domain {
+  name: "gender"
+  value: "F"
+  value: "M"
+}
+string_domain {
+  name: "hsc_b"
+  value: "Central"
+  value: "Others"
+}
+string_domain {
+  name: "hsc_s"
+  value: "Arts"
+  value: "Commerce"
+  value: "Science"
+}
+string_domain {
+  name: "specialisation"
+  value: "Mkt&Fin"
+  value: "Mkt&HR"
+}
+string_domain {
+  name: "ssc_b"
+  value: "Central"
+  value: "Others"
+}
+string_domain {
+  name: "workex"
+  value: "No"
+  value: "Yes"
+}
